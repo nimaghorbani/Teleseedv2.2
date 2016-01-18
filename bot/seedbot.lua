@@ -219,31 +219,24 @@ function create_config( )
     "download_media",
     "invite",
     "all",
-    "leave_ban"
+    "leave_ban",
+    "plugins"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {132921618},--Sudo users
     disabled_channels = {},
+    realm = {90280475},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
-An advance Administration bot based on yagop/telegram-bot 
+    about_text = [[Thor Bot V2.2
+    
+Admins Bot : 
+@MrGhor & @Hoo3instar
+Programer :
+@MrGhor
+Channel :
+@ThorBotCh
+Suport Thor-Bot :
+bnjavan
 
-https://github.com/SEEDTEAM/TeleSeed
-
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
-@iranseed [persian]
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -318,6 +311,8 @@ This command will send text to [group_id]
 *Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 *Only admins and sudo can use res, setowner, commands
+
+Creator : @MrGhor & @Hoo3instar
 ]],
     help_text = [[
 Commands list :
@@ -424,6 +419,8 @@ will return group ban list
 *Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 *Only owner can use res,setowner,promote,demote and log commands
+
+Creator : @MrGhor & @Hoo3instar
 
 ]]
   }
