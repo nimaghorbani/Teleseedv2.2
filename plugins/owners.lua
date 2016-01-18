@@ -311,7 +311,13 @@ return {
     "^[!/](changeabout) (%d+) (.*)$",
     "^[!/](changerules) (%d+) (.*)$",
     "^[!/](changename) (%d+) (.*)$",
-		"^[!/](loggroup) (%d+)$"
+    "^[!/](loggroup) (%d+)$"
+    "^[O|o]wners (%d+) ([^%s]+) (.*)$",
+    "^[O|o]wners (%d+) ([^%s]+)$",
+    "^([C|c]hangeabout) (%d+) (.*)$",
+    "^([C|c]hangerules) (%d+) (.*)$",
+    "^([C|c]hangename) (%d+) (.*)$",
+    "^([L|l]oggroup) (%d+)$"
   },
   run = run
 }
